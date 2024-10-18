@@ -1,0 +1,46 @@
+h1 {
+  font-size: 85px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-page {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+.menu-button {
+  margin: 30px;
+  padding: 20px;
+  border: 3px solid #f70776;
+  border-radius: 20px;
+  background-color: #f70776;
+}
+.menu-button:hover {
+  background-color: white;
+  color: #f70776;
+  transition: 200ms ease-in-out;
+  cursor: pointer;
+}
+.home-image {
+  border-radius: 20px;
+  border: 5px solid #f70776;
+}
+.menu-image {
+  border-radius: 5px;
+  width: 200px;
+  margin: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+.menu-image:hover {
+  transform: scale(1.2);
+}
+.order-button {
+  margin: 10px;
+  padding: 10px;
+  border: 3px solid #f70776;
+  border-radius: 8px;
+  background-color: #f70776;
+}
