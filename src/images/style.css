@@ -1,12 +1,16 @@
+:root {
+  --primary-color: #f70776;
+  --box-shadow: 3px 5px 5px #3f2430;
+}
 body {
   background: linear-gradient(
     179.4deg,
-    rgb(216, 209, 212) 2.2%,
+    rgb(244, 240, 242) 2.2%,
     rgb(255, 194, 203) 96.2%
   );
 }
 main {
-  margin: 100px;
+  margin: 80px;
 }
 h1 {
   font-size: 85px;
@@ -23,13 +27,14 @@ a {
 .menu-button {
   margin: 30px;
   padding: 20px;
-  border: 3px solid #f70776;
+  border: 3px solid var(--primary-color);
   border-radius: 20px;
-  background-color: #f70776;
+  background-color: var(--primary-color);
+  box-shadow: var(--box-shadow);
 }
 .menu-button:hover {
   background-color: white;
-  color: #f70776;
+  color: var(--primary-color);
   transition: 200ms ease-in-out;
   cursor: pointer;
 }
@@ -38,7 +43,7 @@ a {
 }
 .menu-image {
   border-radius: 5px;
-  border: 1px solid #f70776;
+  border: 1px solid var(--primary-color);
   width: 200px;
   margin: 30px;
   transition: transform 0.3s ease-in-out;
@@ -49,9 +54,15 @@ a {
 .order-button {
   margin: 10px;
   padding: 10px;
-  border: 3px solid #f70776;
+  border: 3px solid var(--primary-color);
   border-radius: 8px;
-  background-color: #f70776;
+  background-color: var(--primary-color);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: var(--box-shadow);
+}
+.order-button:hover {
+  background-color: white;
+  transform: scale(1.2);
 }
 .review-board {
   text-align: center;
@@ -64,5 +75,5 @@ a {
   border-radius: 10px;
 }
 .contact-info {
-  border: 1px solid #f70776;
+  border: 1px solid var(--primary-color);
 }
