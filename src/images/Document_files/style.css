@@ -1,0 +1,113 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --primary-font: "Playfair Display", serif;
+  --default-font: "Poppins", sans-serif;
+}
+h1 {
+  font-family: var(--primary-font);
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 96px;
+}
+h2 {
+  font-family: var(--primary-font);
+  font-size: 62px;
+}
+p {
+  font-family: var(--default-font);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 150px 20px;
+}
+.name {
+  font-family: var(--default-font);
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+}
+.button {
+  color: white;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  font-family: var(--default-font);
+  padding: 18px 46px;
+  width: 200px;
+  height: 65px;
+  text-decoration: none;
+  line-height: 30px;
+}
+.text-paragraph {
+  font-size: 18px;
+  margin: 100px;
+}
+.project-paragraph {
+  line-height: 1.8;
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+.project-btn {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin: 50px 0;
+}
+.project {
+  padding: 61px;
+}
+.content {
+  padding: 150px;
+}
+.content h1 {
+  font-size: 64px;
+  line-height: 1;
+}
+.content h2 {
+  font-size: 18px;
+}
+.about-image {
+  border-radius: 4;
+  margin-left: 64px;
+}
+.project-image {
+  border-radius: 20px;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .hero {
+    padding: 55px 10px;
+  }
+  .name {
+    font-size: 15px;
+  }
+  .project {
+    text-align: center;
+    padding: 0;
+  }
+  .content {
+    margin: 0;
+    text-align: center;
+    padding: 55px 10px;
+  }
+  .content h1 {
+    font-size: 30px;
+  }
+  .about-content {
+    line-height: 2;
+  }
+}

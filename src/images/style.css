@@ -1,13 +1,10 @@
 :root {
-  --primary-color: #f70776;
+  --primary-color: #fd5ba7cf;
   --box-shadow: 3px 5px 5px #3f2430;
 }
 body {
-  background: linear-gradient(
-    179.4deg,
-    rgb(244, 240, 242) 2.2%,
-    rgb(255, 194, 203) 96.2%
-  );
+  max-width: auto;
+  margin: auto;
 }
 main {
   margin: 80px;
@@ -66,14 +63,36 @@ a {
 }
 .review-board {
   text-align: center;
-  height: 200px;
-  width: 300px;
+  height: 300px;
+  width: 600px;
   padding: 25px;
-  margin-left: 500px;
+  margin-left: 350px;
   backdrop-filter: blur(10px);
   background-color: rgba(225, 225, 225, 0.7);
   border-radius: 10px;
 }
 .contact-info {
   border: 1px solid var(--primary-color);
+}
+.details {
+  width: 300px;
+  margin-top: 15px;
+  font-size: 18px;
+}
+.review-button {
+  background-color: var(--primary-color);
+  font-size: 24px;
+  border-radius: 8px;
+  border: 3px solid var(--primary-color);
+}
+@media (min-width: 400px) {
+  h1 {
+    font-size: 45px;
+  }
+  main {
+    margin: 60px;
+  }
+  .review-board {
+    display: flex;
+  }
 }
