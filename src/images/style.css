@@ -85,14 +85,11 @@ a {
   border-radius: 8px;
   border: 3px solid var(--primary-color);
 }
-@media (min-width: 400px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 45px;
   }
   main {
     margin: 60px;
-  }
-  .review-board {
-    display: flex;
   }
 }
